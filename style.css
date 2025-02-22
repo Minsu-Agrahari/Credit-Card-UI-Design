@@ -21,11 +21,14 @@ section{
 .container{
     display: flex;
     height: 240px;
-    width: 370px;
+    max-width: 369px;
+    width: 100%;
     background: black;
     border-radius: 24px;
     padding: 25px;
-    position: absolute;
+    position: relative;
+    box-shadow: 0 5px 10px rgba(136, 15, 15, 0.1);
+    border-radius: 25px;
 }
 
 .card header{
